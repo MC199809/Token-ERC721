@@ -14,7 +14,7 @@ contract Stenfis is ERC721, ERC721URIStorage, ERC721Burnable, Ownable {
     {}
 
     function _baseURI() internal pure override returns (string memory) {
-        return "https://emerald-imaginative-spoonbill-973.mypinata.cloud/ipfs/bafkreidmn3x5m7l7uo2pinfwbskac763ztqkjsgl5bpwwfkvldbeul5qq4";
+        return "https://emerald-imaginative-spoonbill-973.mypinata.cloud/ipfs/bafkreidmktgh67dpjml32qgmswso2z6ylrf3nrixwwat54nqe2e5suvekm";
     }
 
     function safeMint(address to, uint256 tokenId, string memory uri)
